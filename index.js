@@ -4,7 +4,6 @@ const badge = require('./lib/badge.js')
 const app = express()
 
 app.get('/', (req, res) => {
-    // serve index.html
     res.sendFile(__dirname + '/index.html')
 })
 
